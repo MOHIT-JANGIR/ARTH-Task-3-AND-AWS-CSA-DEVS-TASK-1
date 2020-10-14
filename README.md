@@ -70,7 +70,7 @@
 
 # Launch EC2 Instance:
 
-## ``Now we are ready to launch the EC2 Instance using the key pair & the security group we just created:``
+# ``Now we are ready to launch the EC2 Instance using the key pair & the security group we just created:``
 
 # aws ec2 run-instances --security-group-ids sg-07a99fc6420e8b5a7 --instance-type t2.micro --count 1 --image-id ami-0e306788ff2473ccb --key-name newkey1
 
