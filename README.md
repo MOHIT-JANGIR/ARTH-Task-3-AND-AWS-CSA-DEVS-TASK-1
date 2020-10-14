@@ -28,7 +28,7 @@
 
 
 
-##  Whether we use WebUI or CLI we need to login to AWS account, i.e., Authentication is a must. For this first create an IAM user, here I've provided AdministratorAccess to the user:
+## using aws webui or cli, login or authentication is required, For this I have first created an IAM user, here I've provided AdministratorAccess to the user:
 
 ![image](https://user-images.githubusercontent.com/61896468/95985825-b5766e00-0e42-11eb-9dae-13dd9eb086d9.png) 
 
