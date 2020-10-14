@@ -1,8 +1,9 @@
 # <p align="center">TASK DESCRIPTION </p>
-## Create a key pair
-## Create a security group
-## Launch an instance using the above created key pair and security group
-## Create an EBS volume and attach to the instance we created above
+# ``` Create a key pair```
+# ``` Create a security group```
+# ``` Launch an instance using the above created key pair and security group```
+# ```Create an EBS volume and attach to the instance we created above```
+
 
 
 
@@ -71,7 +72,7 @@
 
 # `Let's create 1GB EBS Volume which is like a Pendrive, then we will connect this volume to our Instance:`
 
-# aws ec2 create-volume --availability-zone ap-south-1a --volume-type gp2 --size 1
+# ``` aws ec2 create-volume --availability-zone ap-south-1a --volume-type gp2 --size 1```
 
 ![image](https://user-images.githubusercontent.com/61896468/95985158-e013f700-0e41-11eb-989e-c864fb755d4f.png) 
 
@@ -81,7 +82,7 @@
 
 # *Attaching EBS Volume to the Instance:*
 
-# aws ec2 attach-volume --instance-id i-02d0cbde5b20b440a --volume-id vol-0a56a510b631f40fa --device /dev/sdh
+# ``` aws ec2 attach-volume --instance-id i-02d0cbde5b20b440a --volume-id vol-0a56a510b631f40fa --device /dev/sdh```
 
 ![image](https://user-images.githubusercontent.com/61896468/95985030-b064ef00-0e41-11eb-8c95-6377730a903e.png) 
 
