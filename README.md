@@ -15,7 +15,7 @@
 
 # Now Install AWS CLI program according to your Operating System, here I installed AWS CLI version 2 for Windows.
 
-To check whether the AWS CLI program installed properly or not, use this cmd:
+# To check whether the AWS CLI program installed properly or not, use this cmd:
 # <p align="center">aws --version </p>
 
 
